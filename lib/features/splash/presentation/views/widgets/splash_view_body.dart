@@ -1,8 +1,11 @@
+import 'package:book/features/home/presentation/views/home_view.dart';
 import 'package:book/features/splash/presentation/views/widgets/splash_view_widgets/sliding_logo.dart';
 import 'package:book/features/splash/presentation/views/widgets/splash_view_widgets/sliding_text.dart';
 import 'package:book/features/splash/splash_cubits/splash_animation/splash_animation_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart ';
+import 'package:get/get.dart'as Getx;
+
 
 class SplashViewBody extends StatefulWidget {
   const SplashViewBody({super.key});
@@ -42,5 +45,3 @@ class _SplashViewBodyState extends State<SplashViewBody>
     );
   }
 }
-
-
