@@ -10,7 +10,7 @@ class CustomListViewItem extends StatelessWidget {
       aspectRatio: 2.7 / 4,
       child: ClipRRect(
         borderRadius: BorderRadiusGeometry.circular(16),
-        child: Image.asset(AssetsData.testImagese, fit: BoxFit.fill),
+        child: Image.asset(AssetsData.testImages, fit: BoxFit.fill),
       ),
     );
   }
